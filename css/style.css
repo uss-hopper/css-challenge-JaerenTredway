@@ -5,6 +5,7 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
+
 html, body {
 	margin: 0;
 	box-sizing: border-box;
@@ -61,6 +62,12 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+@font-face {
+	font-family: "Liberation Mono";
+	src: url(./LiberationMono-Regular.ttf);
+}
 
-
+.container {
+	font-family: "Liberation Mono", monospace;
+}
 

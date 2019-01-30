@@ -9,6 +9,7 @@
 
 		<title>CSS Mockup Activity</title>
 	</head>
+
 	<body class="sfooter">
 		<div class="sfooter-content">
 
