@@ -14,23 +14,22 @@
 	<body>
 			<!-- HEADER -->
 			<header>
-				<div class="container">
 					<h1>Dylan McDonald:~$</h1>
 					<em>Compupu Scientist. Cat Lover. Picard Fan.</em>
-				</div>
 			</header>
 
 			<!-- INSTRUCTIONS PANEL -->
 			<section class="instructions">
-				<div class="container">
 
-					<div class="image-container">
+					<div class="hero-image-container">
 						<img class="image" src="images/welcome.gif" alt="welcome to my homepage">
 					</div>
 
 					<div class="instructions-wrapper">
+
 						<div class="instructions-content">
 							<h2>Instructions</h2>
+
 							<ol>
 								<li>Fork and clone the following GitHub repository, and create a new project and deployment.<br>
 									<a href="https://github.com/GKephart/css-challenge" target="_blank">https://github.com/GKephart/css-challenge</a></li>
@@ -38,26 +37,32 @@
 								<li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
 							</ol>
 						</div>
-						<img class="image" src="images/captain-janeway.png" alt="captain janeway" />
-						<div class="clearfix"></div>
+
+						<div class="instructions-image-container">
+							<img class="image" src="images/captain-janeway.png" alt="captain janeway" />
+						</div>
+
 					</div><!--/.instructions-->
-				</div><!--/.container-->
 			</section>
 
 			<!-- ABOUT ME -->
 			<section class="about-me">
-				<div class="container">
-					<img class="image" src="images/stunning.jpg" alt="captain picard" />
+
+					<div class="about-me-image-container">
+						<img class="image" src="images/stunning.jpg" alt="captain picard" />
+					</div>
+
+				<div class="about-me-content">
 					<h2>A Day in the Life...</h2>
 					<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
 					<p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box. <span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</span></p>
-					<div class="clearfix"></div>
 				</div>
+
 			</section>
 
 			<!-- PROFESSIONAL SKILLZ -->
-			<section>
-				<div class="container">
+			<section class="skillz">
+				<div>
 					<h2>Summary of Profe$$ional Skillz</h2>
 					<table>
 						<tr>

@@ -25,37 +25,8 @@ html {
 .container {
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 2rem;
-}
-
-* {
 	border: 1px solid red;
-}
-
-/* HEADER: */
-header .container {
-	display: flex;
-	width: 100%;
-	height: 5rem;
-	align-items: center;
-	justify-content: space-between;
-	color: #00ff02;
-	background-color: #333333;
-	border-bottom: 1px solid #000000;
-}
-/* INSTRUCTIONS PANEL: */
-.instructions {
-	width: 100%
-}
-
-.instructions .container {
-
-}
-
-.image-container {
-	width: 50%;
-	margin: 3rem auto 1rem auto;
-	border: 1px solid red;
+	/*padding: 0 2rem;*/
 }
 
 .image {
@@ -63,11 +34,72 @@ header .container {
 	height: auto;
 }
 
-instructions-wrapper {
-	border: 2px solid black;
+section {
+	width: 100%;
+}
+
+/** {*/
+	/*border: 1px solid red;*/
+/*}*/
+
+/* HEADER: */
+header {
+	display: flex;
+	width: 100%;
+	height: 5rem;
+	align-items: center;
+	justify-content: space-around;
+	color: #00ff02;
+	background-color: #333333;
+	border-bottom: 1px solid #000000;
+}
+/* INSTRUCTIONS PANEL: */
+.instructions {
+	width: 90%;
+	margin: 2rem auto;
+}
+
+.hero-image-container {
+	width: 50%;
+	margin: 3rem auto 1rem auto;
+	border: 1px solid red;
+}
+
+.instructions-wrapper {
+	border: 3px solid black;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.instructions-content {
+	width: 50%;
+	margin: 2rem;
+}
+
+.instructions-image-container {
+	width: 25%;
+	margin: 2rem;
 }
 
 /* ABOUT ME: */
+.about-me {
+	width: 100%;
+	background-color: blue;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-me-image-container {
+	width: 30%;
+	border: 2px solid white;
+}
+
+.about-me-content {
+	width: 50%;
+	color: white;
+}
 
 /*PROFESSIONAL SKILLZ:*/
 
