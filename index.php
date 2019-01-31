@@ -6,19 +6,18 @@
 
 		<!-- custom CSS stylesheet -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="./css/normalize.css" type="text/css">
 
 		<title>CSS Mockup Activity</title>
 	</head>
 
-	<body class="sfooter">
-		<div class="sfooter-content">
+	<body>
+		<div>
 
 			<!-- HEADER -->
 			<header>
-				<div class="container">
 					<h1>Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
-				</div>
 			</header>
 
 			<!-- INSTRUCTIONS PANEL -->
