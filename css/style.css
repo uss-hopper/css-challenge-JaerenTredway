@@ -3,6 +3,7 @@
 * @author jtredway
 ******************************************************/
 
+/* UNIVERSAL STYLES: */
 html {
 	box-sizing: border-box;
 	font-family: "Liberation Mono", monospace;
@@ -12,11 +13,6 @@ html {
 	box-sizing: inherit;
 }
 
-/*.clearfix {*/
-	/*clear: both;*/
-/*}*/
-
-/* UNIVERSAL STYLES: */
 @font-face {
 	font-family: "Liberation Mono";
 	src: url(./LiberationMono-Regular.ttf);
@@ -111,7 +107,31 @@ header {
 }
 
 /*PROFESSIONAL SKILLZ:*/
+.skillz {
+	width: 78%;
+	margin: 2rem auto;
+}
 
+.skillz h3 {
+	float: right;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+table, td, th {
+	border-collapse: collapse;
+	background-color: #333333;
+	border: 2px solid white;
+	color: #00ff02;
+}
+
+th, td {
+	height: 3rem;
+}
 /*CONTACT FORM*/
 
 /* FOOTER: */
