@@ -62,8 +62,9 @@
 
 			<!-- PROFESSIONAL SKILLZ -->
 			<section class="skillz">
-				<div>
+
 					<h2>Summary of Profe$$ional Skillz</h2>
+
 					<table>
 						<tr>
 							<th>Languages</th>
@@ -86,7 +87,7 @@
 							<td>Meme Master</td>
 						</tr>
 					</table>
-				</div><!--/.container-->
+
 			</section>
 
 			<!-- CONTACT FORM -->

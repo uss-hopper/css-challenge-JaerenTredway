@@ -22,6 +22,10 @@ html {
 	src: url(./LiberationMono-Regular.ttf);
 }
 
+p, li {
+	font-size: 12px;
+}
+
 .container {
 	width: 100%;
 	margin: 0 auto;
@@ -38,9 +42,6 @@ section {
 	width: 100%;
 }
 
-/** {*/
-	/*border: 1px solid red;*/
-/*}*/
 
 /* HEADER: */
 header {
@@ -55,14 +56,13 @@ header {
 }
 /* INSTRUCTIONS PANEL: */
 .instructions {
-	width: 90%;
+	width: 78%;
 	margin: 2rem auto;
 }
 
 .hero-image-container {
 	width: 50%;
 	margin: 3rem auto 1rem auto;
-	border: 1px solid red;
 }
 
 .instructions-wrapper {
@@ -88,17 +88,26 @@ header {
 	background-color: blue;
 	display: inline-flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .about-me-image-container {
-	width: 30%;
+	width: 25%;
 	border: 2px solid white;
+	margin: 2rem;
+	margin-left: auto;
 }
 
 .about-me-content {
 	width: 50%;
 	color: white;
+	margin-right: auto;
+}
+
+.about-me-content span {
+	color: yellow;
+	font-style: italic;
+	font-weight: bold;
 }
 
 /*PROFESSIONAL SKILLZ:*/
