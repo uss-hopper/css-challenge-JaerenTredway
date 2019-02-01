@@ -91,8 +91,7 @@
 			</section>
 
 			<!-- CONTACT FORM -->
-			<section>
-				<div class="container">
+			<section class="">
 					<div class="form-wrapper">
 						<h2>Contact Me! I <3 to fix printers!</h2>
 						<form>
@@ -120,7 +119,7 @@
 							<button type="submit">Send!</button>
 						</form>
 					</div>
-				</div>
+
 			</section>
 
 		<footer>
