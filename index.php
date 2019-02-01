@@ -6,7 +6,7 @@
 
 		<!-- custom CSS stylesheet -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
-		<link rel="stylesheet" href="./css/normalize.css" type="text/css">
+		<link rel="stylesheet" href="./css/reset.css" type="text/css">
 
 		<title>CSS Mockup Activity</title>
 	</head>
@@ -19,13 +19,13 @@
 			</header>
 
 			<!-- INSTRUCTIONS PANEL -->
-			<section class="instructions">
+			<section class="instructions-wrapper">
 
 					<div class="hero-image-container">
 						<img class="image" src="images/welcome.gif" alt="welcome to my homepage">
 					</div>
 
-					<div class="instructions-wrapper">
+					<div class="instructions-box">
 
 						<div class="instructions-content">
 							<h3>Instructions</h3>

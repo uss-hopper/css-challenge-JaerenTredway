@@ -52,19 +52,25 @@ header {
 	border-bottom: 1px solid #000000;
 }
 /* INSTRUCTIONS PANEL: */
-.instructions {
-	width: 78%;
+.instructions-wrapper {
+	max-width: 78%;
 	margin: 2rem auto;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
 }
 
 .hero-image-container {
-	width: 50%;
+	flex: 0 1 50px;
+	align-content: center;
 	margin: 3rem auto 1rem auto;
+	border: 1px solid red;
 }
 
-.instructions-wrapper {
+.instructions-box {
 	border: 3px solid black;
 	display: inline-flex;
+	/*width: auto;*/
 	flex-flow: wrap;
 	align-items: center;
 	justify-content: space-between;
@@ -73,11 +79,17 @@ header {
 .instructions-content {
 	width: 50%;
 	margin: 2rem;
+	min-width: 12rem;
+	word-wrap: break-word;
+	border: 1px solid red;
 }
 
+/*image wrapper for Captain Janeway:*/
 .instructions-image-container {
 	width: 25%;
 	margin: 2rem;
+	min-width: 12rem;
+	border: 1px solid red;
 }
 
 /* ABOUT ME: */
@@ -90,17 +102,19 @@ header {
 	justify-content: space-around;
 }
 
+/*image wrapper for Captain Picard:*/
 .about-me-image-container {
-	width: 25%;
+	width: 20rem;
 	border: 2px solid white;
-	margin: 2rem;
-	margin-left: auto;
+	margin: 2rem auto;
+	flex-shrink: 0;
 }
 
 .about-me-content {
 	width: 50%;
 	color: white;
 	margin-right: auto;
+	min-width: 30rem;
 }
 
 .about-me-content span {
