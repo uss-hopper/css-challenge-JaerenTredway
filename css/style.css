@@ -22,20 +22,9 @@ p, li {
 	font-size: 12px;
 }
 
-.container {
-	width: 100%;
-	margin: 0 auto;
-	border: 1px solid red;
-	/*padding: 0 2rem;*/
-}
-
-.image {
+img {
 	width: 100%;
 	height: auto;
-}
-
-section {
-	width: 100%;
 }
 
 
@@ -79,14 +68,14 @@ header {
 	align-items: center;
 }
 
-.hero-image-wrapper {
+.instructions > image-wrapper {
 	flex: 0 1 auto;
 	margin: 3rem auto;
 	border: 1px solid red;
 	padding: 0 1rem;
 }
 
-.instructions-flex-container {
+.instructions > .container {
 	border: 3px solid black;
 	display: flex;
 	/*width: auto;*/
@@ -99,12 +88,12 @@ header {
 
 /*if device bigger than a phone in landscape:*/
 @media only screen and (min-width: 850px) {
-	.instructions-flex-container {
+	.instructions > .container {
 		justify-content: space-between;
 	}
 }
 
-.instructions-content-flex-item {
+.instructions > .container > .content-wrapper {
 	width: 40%;
 	margin: 2rem;
 	min-width: 17rem;
@@ -113,7 +102,7 @@ header {
 }
 
 /*image wrapper for Captain Janeway:*/
-.instructions-image-flex-item {
+.instructions > .container > .image-wrapper {
 	width: 25%;
 	margin: 2rem;
 	min-width: 17rem;

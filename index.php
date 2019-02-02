@@ -24,13 +24,13 @@
       <!-- INSTRUCTIONS PANEL -->
       <section class="instructions">
 
-         <div class="hero-image-wrapper">
-            <img class="image" src="images/welcome.gif" alt="welcome to my homepage">
+         <div class="image-wrapper">
+            <img src="images/welcome.gif" alt="welcome to my homepage">
          </div>
 
-         <div class="instructions-flex-container">
+         <div class="container">
 
-            <div class="instructions-content-flex-item">
+            <div class="content-wrapper">
                <h3>Instructions</h3>
 
                <ol>
@@ -41,8 +41,8 @@
                </ol>
             </div>
 
-            <div class="instructions-image-flex-item">
-               <img class="image" src="images/captain-janeway.png" alt="captain janeway" />
+            <div class="image-wrapper">
+               <img src="images/captain-janeway.png" alt="captain janeway" />
             </div>
 
          </div><!--/.instructions-->
