@@ -1,131 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+   <!-- ******************* LOCAL DEVELOPMENT VERSION ************************ -->
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- custom CSS stylesheet -->
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
-		<link rel="stylesheet" href="./css/normalize.css" type="text/css">
+      <!-- custom CSS stylesheet -->
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" href="./css/normalize.css" type="text/css">
 
-		<title>CSS Mockup Activity</title>
-	</head>
+      <title>CSS Mockup Activity</title>
+   </head>
 
-	<body>
-			<!-- HEADER -->
-			<header>
-					<h1>Dylan McDonald:~$</h1>
-					<em>Compupu Scientist. Cat Lover. Picard Fan.</em>
-			</header>
+   <body>
+      <!-- HEADER -->
+      <header>
+         <div class="header-flex-container">
+            <h1>Dylan McDonald:~$</h1>
+            <em>Compupu Scientist. Cat Lover. Picard Fan.</em>
+         </div>
+      </header>
 
-			<!-- INSTRUCTIONS PANEL -->
-			<section class="instructions-wrapper">
+      <!-- INSTRUCTIONS PANEL -->
+      <section class="instructions">
 
-					<div class="hero-image-container">
-						<img class="image" src="images/welcome.gif" alt="welcome to my homepage">
-					</div>
+         <div class="hero-image-wrapper">
+            <img class="image" src="images/welcome.gif" alt="welcome to my homepage">
+         </div>
 
-					<div class="instructions-box">
+         <div class="instructions-flex-container">
 
-						<div class="instructions-content">
-							<h3>Instructions</h3>
+            <div class="instructions-content-flex-item">
+               <h3>Instructions</h3>
 
-							<ol>
-								<li>Fork and clone the following GitHub repository, and create a new project and deployment.<br>
-									<a href="https://github.com/GKephart/css-challenge" target="_blank">https://github.com/GKephart/css-challenge</a></li>
-								<li>Edit the stylesheet, adding CSS to make the page look like the mockup. <a href="images/mockup.png" target="_blank">Mockup Image</a></li>
-								<li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
-							</ol>
-						</div>
+               <ol>
+                  <li>Fork and clone the following GitHub repository, and create a new project and deployment.<br>
+                     <a href="https://github.com/GKephart/css-challenge" target="_blank">https://github.com/GKephart/css-challenge</a></li>
+                  <li>Edit the stylesheet, adding CSS to make the page look like the mockup. <a href="images/mockup.png" target="_blank">Mockup Image</a></li>
+                  <li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
+               </ol>
+            </div>
 
-						<div class="instructions-image-container">
-							<img class="image" src="images/captain-janeway.png" alt="captain janeway" />
-						</div>
+            <div class="instructions-image-flex-item">
+               <img class="image" src="images/captain-janeway.png" alt="captain janeway" />
+            </div>
 
-					</div><!--/.instructions-->
-			</section>
+         </div><!--/.instructions-->
+      </section>
 
-			<!-- ABOUT ME -->
-			<section class="about-me">
+      <!-- ABOUT ME -->
+      <section class="about-me">
+         <div class="about-me-flex-container">
+            <div class="about-me-image-flex-item">
+               <img class="image" src="images/stunning.jpg" alt="captain picard" />
+            </div>
 
-					<div class="about-me-image-container">
-						<img class="image" src="images/stunning.jpg" alt="captain picard" />
-					</div>
+            <div class="about-me-content-flex-item">
+               <h3>A Day in the Life...</h3>
+               <p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
+               <p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box. <span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</span></p>
+            </div>
+         </div>
+      </section>
 
-				<div class="about-me-content">
-					<h3>A Day in the Life...</h3>
-					<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
-					<p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box. <span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</span></p>
-				</div>
+      <!-- PROFESSIONAL SKILLZ -->
+      <section class="skillz">
 
-			</section>
+         <h3>Summary of Profe$$ional Skillz</h3>
 
-			<!-- PROFESSIONAL SKILLZ -->
-			<section class="skillz">
+         <table>
+            <tr>
+               <th>Languages</th>
+               <th>Software</th>
+               <th>Other</th>
+            </tr>
+            <tr>
+               <td>Java</td>
+               <td>Kali Linux</td>
+               <td>Certified Ethical Hacker</td>
+            </tr>
+            <tr>
+               <td>PHP</td>
+               <td>Metasploit</td>
+               <td>Star Trek Trivia Champion</td>
+            </tr>
+            <tr>
+               <td>Klingon</td>
+               <td>Microsoft Office</td>
+               <td>Meme Master</td>
+            </tr>
+         </table>
 
-					<h3>Summary of Profe$$ional Skillz</h3>
+      </section>
 
-					<table>
-						<tr>
-							<th>Languages</th>
-							<th>Software</th>
-							<th>Other</th>
-						</tr>
-						<tr>
-							<td>Java</td>
-							<td>Kali Linux</td>
-							<td>Certified Ethical Hacker</td>
-						</tr>
-						<tr>
-							<td>PHP</td>
-							<td>Metasploit</td>
-							<td>Star Trek Trivia Champion</td>
-						</tr>
-						<tr>
-							<td>Klingon</td>
-							<td>Microsoft Office</td>
-							<td>Meme Master</td>
-						</tr>
-					</table>
+      <!-- CONTACT FORM -->
+      <section class="">
+         <div class="form-wrapper">
+            <h2>Contact Me! I <3 to fix printers!</h2>
+            <form>
+               <div>
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
+               </div>
 
-			</section>
+               <div>
+                  <label for="emailEmail">Email</label>
+                  <input type="email" name="email" id="email" />
+               </div>
 
-			<!-- CONTACT FORM -->
-			<section class="">
-					<div class="form-wrapper">
-						<h2>Contact Me! I <3 to fix printers!</h2>
-						<form>
-							<div>
-								<label for="name">Name</label>
-								<input type="text" name="name" id="name" />
-							</div>
+               <div>
+                  <label for="subject">Subject</label>
+                  <input type="text" name="subject" id="subject" />
+               </div>
 
-							<div>
-								<label for="emailEmail">Email</label>
-								<input type="email" name="email" id="email" />
-							</div>
+               <div>
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
+               </div>
 
-							<div>
-								<label for="subject">Subject</label>
-								<input type="text" name="subject" id="subject" />
-							</div>
+               <button type="reset">Reset</button>
+               <button type="submit">Send!</button>
+            </form>
+         </div>
 
-							<div>
-								<label for="message">Message</label>
-								<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
-							</div>
+      </section>
 
-							<button type="reset">Reset</button>
-							<button type="submit">Send!</button>
-						</form>
-					</div>
-
-			</section>
-
-		<footer>
-			<div class="container">
-				<h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
-			</div>
-		</footer>
-	</body>
+      <footer>
+         <div class="container">
+            <h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
+         </div>
+      </footer>
+   </body>
 </html>
