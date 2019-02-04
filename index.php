@@ -94,8 +94,8 @@
       </section>
 
       <!-- CONTACT FORM -->
-      <section class="">
-         <div class="form-wrapper">
+      <section class="contact-form">
+         <div class="container">
             <h2>Contact Me! I <3 to fix printers!</h2>
             <form>
                <div>

@@ -18,10 +18,6 @@ html {
 	src: url(./LiberationMono-Regular.ttf);
 }
 
-/* p, li {
-	font-size: 12px;
-} */
-
 img {
 	width: 100%;
 	height: auto;
@@ -82,6 +78,7 @@ header {
 	width: 80%;
 }
 
+/*if device bigger than a phone in landscape:*/
 @media only screen and (min-width: 850px) {
 	.instructions > .container {
 		justify-content: space-between;
@@ -121,6 +118,7 @@ header {
 	border: 1px solid red;
 }
 
+/*if device bigger than a phone in landscape:*/
 @media only screen and (min-width: 1200px) {
 	.about-me > .container {
 		justify-content: space-between;
@@ -136,6 +134,7 @@ header {
 	border: 1px solid red;
 }
 
+/*if device bigger than a phone in landscape:*/
 @media only screen and (min-width: 1200px) {
 	.about-me > .container > .image-wrapper {
 		margin: 2rem 2rem 2rem 0rem;
@@ -152,6 +151,7 @@ header {
 	border: 1px solid red;
 }
 
+/*if device bigger than a phone in landscape:*/
 @media only screen and (min-width: 1200px) {
 	.about-me > .container > .content-wrapper {
 		margin: 2rem 0 2rem 2rem;
@@ -167,7 +167,7 @@ header {
 
 /*PROFESSIONAL SKILLZ:*/
 .skillz {
-	width: 78%;
+	width: 80%;
 	margin: 2rem auto;
 }
 
@@ -191,21 +191,36 @@ table, td, th {
 th, td {
 	height: 3rem;
 }
+
 /*CONTACT FORM*/
-
-
-
-/*if device bigger than a tablet (in portrait):*/
-@media only screen and (min-width: 1200px) {
-
+.contact-form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #333333;
 }
 
-/*if device bigger than a phone (in landscape):*/
-@media only screen and (min-width: 735px) {
-
+.contact-form > .container {
+	width: 80%;
+	margin: 3rem 0 3rem 0;
+	background-color: darkgreen;
+	color: #00ff02;
 }
 
-/*if device bigger than a phone:*/
-@media only screen and (min-width: 412px) {
+.contact-form > .container h2, .contact-form > .container label, .contact-form > .container input, .contact-form > .container textarea {
+	display: block;
+	margin: 1rem;
+}
 
+.contact-form > .container textarea {
+	max-width: 17rem;
+}
+
+.contact-form > .container button {
+	margin: 0 0 1rem 1rem;
+	background-color: #00ff02;
+	color: #333333;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: .5rem 2rem;
 }
