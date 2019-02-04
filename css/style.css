@@ -44,7 +44,7 @@ header {
 	display: flex;
 	flex-flow: wrap;
 	width: 80%;
-	min-height: inherit;
+	/* min-height: inherit; */
 	align-items: center;
 	justify-content: flex-start;
 }
@@ -84,7 +84,6 @@ header {
 	width: 80%;
 }
 
-/*if device bigger than a phone in landscape:*/
 @media only screen and (min-width: 850px) {
 	.instructions > .container {
 		justify-content: space-between;
@@ -107,9 +106,9 @@ header {
 
 /*image wrapper for Captain Janeway:*/
 .instructions > .container > .image-wrapper {
-	width: 25%;
+	/* width: 25%; */
 	margin: 2rem;
-	max-width: 17rem;
+	width: 17rem;
 }
 
 /* ABOUT ME: */
@@ -186,10 +185,12 @@ header {
 
 .skillz h3 {
 	float: right;
+	font-family: "Liberation Mono Bold";
+	font-size: 1.5rem;
 }
 
 table {
-	table-layout: fixed;
+	table-layout: auto;
 	width: 100%;
 	margin-bottom: 3rem;
 }
@@ -203,6 +204,8 @@ table, td, th {
 
 th, td {
 	height: 3rem;
+	padding: 1rem;
+	text-align: left;
 }
 
 /*CONTACT FORM*/
@@ -222,7 +225,7 @@ th, td {
 
 .contact-form > .container h2, .contact-form > .container label, .contact-form > .container input, .contact-form > .container textarea {
 	display: block;
-	margin: 1rem;
+	margin: 1.5rem;
 }
 
 .contact-form > .container textarea {
@@ -230,7 +233,7 @@ th, td {
 }
 
 .contact-form > .container button {
-	margin: 0 0 1rem 1rem;
+	margin: 0 0 1.5rem 1.5rem;
 	background-color: #00ff02;
 	color: #333333;
 	font-family: sans-serif;
