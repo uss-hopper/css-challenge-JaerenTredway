@@ -18,9 +18,9 @@ html {
 	src: url(./LiberationMono-Regular.ttf);
 }
 
-p, li {
+/* p, li {
 	font-size: 12px;
-}
+} */
 
 img {
 	width: 100%;
@@ -61,32 +61,27 @@ header {
 /* INSTRUCTIONS PANEL: */
 .instructions {
 	width: 100%;
-	margin: 2rem auto;
-	border: 1px solid red;
+	margin: 2rem 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.instructions > image-wrapper {
+.instructions > .image-wrapper {
 	flex: 0 1 auto;
 	margin: 3rem auto;
-	border: 1px solid red;
 	padding: 0 1rem;
 }
 
 .instructions > .container {
 	border: 3px solid black;
 	display: flex;
-	/*width: auto;*/
 	flex-flow: wrap;
-	align-content: center;
 	align-items: center;
 	justify-content: center;
 	width: 80%;
 }
 
-/*if device bigger than a phone in landscape:*/
 @media only screen and (min-width: 850px) {
 	.instructions > .container {
 		justify-content: space-between;
@@ -98,7 +93,6 @@ header {
 	margin: 2rem;
 	min-width: 17rem;
 	word-wrap: break-word;
-	border: 1px solid red;
 }
 
 /*image wrapper for Captain Janeway:*/
@@ -106,39 +100,66 @@ header {
 	width: 25%;
 	margin: 2rem;
 	min-width: 17rem;
-	border: 1px solid red;
 }
 
 /* ABOUT ME: */
 .about-me {
 	width: 100%;
 	background-color: blue;
-	display: inline-flex;
-	flex-flow: wrap;
+	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
+	margin: 2rem 0;
 }
 
-about-me-flex-container {
+.about-me > .container {
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: center;
 	width: 80%;
+	border: 1px solid red;
+}
+
+@media only screen and (min-width: 1200px) {
+	.about-me > .container {
+		justify-content: space-between;
+	}
 }
 
 /*image wrapper for Captain Picard:*/
-.about-me-image-flex-item {
-	width: 20rem;
+.about-me > .container > .image-wrapper {
+	width: 30%;
+	margin: 2rem;
 	border: 2px solid white;
-	margin: 2rem auto;
-	flex-shrink: 0;
+	min-width: 20rem;
+	border: 1px solid red;
 }
 
-.about-me-content-flex-item {
-	width: 50%;
+@media only screen and (min-width: 1200px) {
+	.about-me > .container > .image-wrapper {
+		margin: 2rem 2rem 2rem 0rem;
+	}
+}
+
+.about-me > .container > .content-wrapper {
+	min-width: 17rem;
+	flex-basis: 60%;
+	/* max-width: 60%;
+	max-height: 70%; */
 	color: white;
-	margin-right: auto;
-	min-width: 30rem;
+	margin: 2rem;
+	border: 1px solid red;
 }
 
-.about-me-content span {
+@media only screen and (min-width: 1200px) {
+	.about-me > .container > .content-wrapper {
+		margin: 2rem 0 2rem 2rem;
+		width: 40%;
+	}
+}
+
+.about-me > .content > span {
 	color: yellow;
 	font-style: italic;
 	font-weight: bold;
