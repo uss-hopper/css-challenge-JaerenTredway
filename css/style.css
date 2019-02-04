@@ -224,3 +224,27 @@ th, td {
 	font-weight: bold;
 	padding: .5rem 2rem;
 }
+
+/* FOOTER */
+footer {
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid red;
+}
+
+footer > .container {
+	width: 80%;
+	color: white;
+	margin: 0 auto;
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+}
+
+footer > .container h4 {
+	text-align: center;
+}
+
