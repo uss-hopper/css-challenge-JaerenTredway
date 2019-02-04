@@ -18,6 +18,11 @@ html {
 	src: url(./LiberationMono-Regular.ttf);
 }
 
+@font-face {
+	font-family: "Liberation Mono Bold";
+	src: url(./LiberationMono-Bold.ttf);
+}
+
 img {
 	width: 100%;
 	height: auto;
@@ -52,6 +57,7 @@ header {
 
 .header-flex-container h1 {
 	margin-right: 2rem;
+	font-size: 3rem;
 }
 
 /* INSTRUCTIONS PANEL: */
@@ -70,7 +76,7 @@ header {
 }
 
 .instructions > .container {
-	border: 3px solid black;
+	border: 5px solid black;
 	display: flex;
 	flex-flow: wrap;
 	align-items: center;
@@ -86,17 +92,24 @@ header {
 }
 
 .instructions > .container > .content-wrapper {
-	width: 40%;
+	width: 50%;
 	margin: 2rem;
 	min-width: 17rem;
 	word-wrap: break-word;
+	padding: 0;
+}
+
+.instructions > .container > .content-wrapper h3 {
+	font-family: "Liberation Mono Bold";
+	font-size: 1.5rem;
+	margin-top: 0;
 }
 
 /*image wrapper for Captain Janeway:*/
 .instructions > .container > .image-wrapper {
 	width: 25%;
 	margin: 2rem;
-	min-width: 17rem;
+	max-width: 17rem;
 }
 
 /* ABOUT ME: */
