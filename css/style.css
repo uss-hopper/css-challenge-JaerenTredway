@@ -130,7 +130,6 @@ header {
 	align-items: center;
 	justify-content: center;
 	width: 80%;
-	border: 1px solid red;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -145,7 +144,6 @@ header {
 	margin: 2rem;
 	border: 2px solid white;
 	min-width: 20rem;
-	border: 1px solid red;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -161,7 +159,6 @@ header {
 	max-height: 70%; */
 	color: white;
 	margin: 2rem;
-	border: 1px solid red;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -254,14 +251,12 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid red;
 }
 
 footer > .container {
 	width: 80%;
 	color: white;
 	margin: 0 auto;
-	border: 1px solid red;
 	display: flex;
 	justify-content: center;
 }
